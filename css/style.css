@@ -322,7 +322,8 @@ ul li {
 }
 
 .project-img {
-  width: 25%;
+  width: 350px;
+  height: 230px;
   border-radius: 8px;
 }
 
