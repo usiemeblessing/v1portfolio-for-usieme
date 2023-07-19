@@ -95,6 +95,7 @@ h4 {
   width: 380px;
   max-width: 100%;
   position: relative;
+  margin-bottom: 40px;
 }
 
 .newsletter form input:first-child {
@@ -118,6 +119,17 @@ h4 {
   top: 6px;
   right: 6px;
   cursor: pointer;
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume a {
+  color: white;
+  text-decoration: none;
 }
 /* About Section */
 .about {
