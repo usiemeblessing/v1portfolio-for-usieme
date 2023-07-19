@@ -183,8 +183,8 @@ button:hover {
   border: 2px solid rgb(248, 4, 167);
 }
 
-/* Service Section */
-.service {
+/* Skills Section */
+.skills {
   background: #101010;
   width: 100%;
   padding: 10px 0px;
@@ -254,6 +254,66 @@ h5 {
   border: 2px solid rgb(248, 4, 167);
   cursor: pointer;
 }
+
+/* Start of Works Section */
+.works {
+  background: #101010;
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.works-links-container {
+  margin-bottom: 50px;
+  width: 80%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.works-links:link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.works-links:visited {
+  color: white;
+}
+
+.works-links:hover {
+  color: rgb(248, 4, 167);
+}
+
+.project-images-row1,
+.project-images-row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.project-images-row2 {
+  margin-bottom: 0;
+}
+
+.project-img {
+  width: 25%;
+  border-radius: 8px;
+}
+
+/*End of Works Section */
+
 /* Contact-me Section */
 .contact-me {
   width: 100%;
@@ -301,18 +361,18 @@ footer {
 }
 
 footer p:nth-child(1) {
-  font-size: 30px;
-  color: white;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-footer p:nth-child(2) {
   color: white;
   font-size: 17px;
   width: 500px;
   line-height: 26px;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+footer p:nth-child(2) {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
 }
 
 .social {
